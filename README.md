@@ -1,8 +1,8 @@
 # NBA_Stats
 Python Webscraper - www.stats.nba.com
-Utilizing Python 3.6, panda, numpy, request, and bs4 to scrape www.stats.nba.com data for all active roster players, 
+Utilizing Python 3.6, panda, numpy, request, and bs4 to scrape www.stats.nba.com data for all active roster players of preferred team, 
 __V.0.1 - Current features:__
-- Compile dataframe of (almost) all active roster players in NBA (~417), including player total stats to .csv file.
+- Can compile dataframe of (almost) all active roster players in NBA, including player total stats to .csv file.
 __File Descriptions:__
 - FetchData.py:
   * Function that takes team name ('spurs', 'blazers', etc. in this format) as input, and returns a
